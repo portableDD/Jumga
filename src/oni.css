@@ -193,7 +193,7 @@ header nav ul li a {
     height: 495px;
     overflow: hidden;
 }
-/* .slide-show {
+.slide-show {
     animation: fade 10s ease-in;
 }
 
@@ -207,7 +207,7 @@ header nav ul li a {
     100% {
         opacity: 1;
     }
-  } */
+  }
   .slide-img-background {
     position: absolute;
     top: 0px;
@@ -232,7 +232,7 @@ header nav ul li a {
     margin-right: 15px;
     position: absolute;
     left: 50%;
-    /* animation: rotateImg 5s ease-in-out; */
+    animation: rotateImg 5s ease-in-out;
 }
 
 .slide-1 .slide-product img {
@@ -242,10 +242,10 @@ header nav ul li a {
     margin-right: 15px;
     position: absolute;
     left: 30%;
-    /* animation: rotateImg 5s ease-in-out; */
+    animation: rotateImg 5s ease-in-out;
 }
 
-/* @keyframes rotateImg {
+@keyframes rotateImg {
 	0% {
 		transform: scale(0.4);
 		opacity: 0;
@@ -263,7 +263,7 @@ header nav ul li a {
 		transform: scale(0.8);
 		opacity: 1;
 	}
-} */
+}
 .slide-show .info {
     display: flex;
     justify-content: center;
@@ -274,10 +274,10 @@ header nav ul li a {
     left: 20%;
     width: 100%;
     padding: 0px 15px;
-    /* animation: rotateText 5s ease-in-out; */
+    animation: rotateText 5s ease-in-out;
 }
 
-/* @keyframes rotateText {
+@keyframes rotateText {
 	0% {
 		transform: rotatey(90deg);
 		opacity: 0.1;
@@ -295,7 +295,7 @@ header nav ul li a {
 		transform: rotatey(0deg);
 		opacity: 1;
 	}
-} */
+}
 
 .slide-show .info span {
     color: #fff;
@@ -538,9 +538,9 @@ font-size: 12.0pt;
 }
 
 @media screen and (max-width: 980px) {
-    body{
+    /* body{
         overflow: hidden;
-    }
+    } */
 
     .site-logo {
         display: block;
@@ -625,7 +625,7 @@ font-size: 12.0pt;
         width: calc(50% - 7.5px);
         margin: 0px auto 15px auto;
         width: 320;
-    
+        overflow: hidden;
     }
     .index-page .product-wrapper .items .info span:first-child {
         text-transform: capitalize;
@@ -641,6 +641,7 @@ font-size: 12.0pt;
     .product-wrapper .featured-image, .related-products .featured-image  {
         height: 450px;
         justify-content: space-between;
+        overflow: hidden;
     }
 
     .single-index-thumbnails img{
