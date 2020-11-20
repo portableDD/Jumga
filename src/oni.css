@@ -626,7 +626,7 @@ font-size: 12.0pt;
 	.index-page .product-wrapper .items {
         width: calc(50% - 7.5px);
         /* margin: 15px 15px 15px 15px; */
-        width: 220px;
+        width: 320px;
         overflow: hidden;
     }
     .index-page .product-wrapper .items .info span:first-child {
