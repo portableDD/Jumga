@@ -538,9 +538,9 @@ font-size: 12.0pt;
 }
 
 @media screen and (max-width: 980px) {
-    body{
+    /* body{
         overflow: hidden;
-    }
+    } */
 
     .site-logo {
         display: block;
