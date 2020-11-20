@@ -1,0 +1,144 @@
+.product-page .products-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-page .content {
+    flex: 1;
+}
+.product-page .featured-image {
+	height: 150px;
+}
+.product-page .featured-image img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.product-page .product-single {
+	width: 200px;
+}
+
+.product-page .info span {
+	display: inline-block;
+	font-size: 14px;
+	color: #444;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+.product-page .content {
+	margin-left: 15px;
+}
+.product-page p {
+	word-spacing: 1px;
+	line-height: 20px;
+	flex: 1;
+	font-size: 14px;
+	color: #5d5b5b;
+	margin-top: 10px
+}
+.desc{
+	word-spacing: 1px;
+	line-height: 20px;
+	flex: 1;
+	font-size: 14px;
+	color: #5d5b5b;
+}
+.desc p {
+	margin-top: 20px;
+}
+
+.product-page .des{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    word-spacing: 1px;
+    line-height: 20px;
+    font-size: 16px;
+    color: black;
+}
+.product-page  button {
+	background: #b3085c;
+	height: 30px;
+	width: 100%;
+	border-radius: 2px;
+	color: #fff;
+	font-size: 13px;
+	border: none;
+	text-transform: capitalize;
+    cursor: pointer;
+	text-decoration: none;
+	margin-top: 10px;
+}
+.single-product-wrapper {
+	margin-bottom: 15px;
+}
+
+.product-page .latest-title {
+	border: 2px dashed #5d5b5b;
+	padding: 15px 15px 15px 0px;
+	margin-bottom: 15px;
+	border-left: 0px;
+	border-right: 0px;
+}
+.product-page .latest-title h3 {
+	color: #5d5b5b;
+	font-size: 15px;
+}
+
+
+.pay-bitch {
+	width: 100%;
+	max-width: 180px;
+}
+.pay-bitch input{
+	width: 100%;
+    border: 1px solid #ccc;
+    padding: 4px;
+    color: #5d5b5b;
+    border-radius: 2px;
+}
+
+.pay-bitch .name{
+	margin-top: 10px
+}
+
+
+@media screen and (max-width: 980px) {
+	.product-page .products-items{
+		display: block;
+	}
+
+
+.index-page .title {
+	margin-top: 25px;
+	margin-bottom: 22px;
+	padding-left: 26px;
+}
+
+.index-page .title h3 {
+	font-size: 27px;
+	font-weight: bold;
+}
+
+.product-wrapper .featured-image, .related-products .featured-image  {
+	height: 450px;
+	justify-content: space-between;
+}
+ .product-page .featured-image {
+	height: 350px;
+} 
+ .product-page .featured-image img {
+	max-width: 350px;
+	max-height: 350px;
+	justify-content: center;
+} 
+
+.product-page .info span {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.product-page  button {
+	height: 50px;
+	width: 100%;
+	font-size: 25px;
+}
+
+}
