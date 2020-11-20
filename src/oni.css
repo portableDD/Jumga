@@ -623,7 +623,7 @@ font-size: 12.0pt;
     }
 	.index-page .product-wrapper .items {
         width: calc(50% - 7.5px);
-        margin: 0px auto 15px auto;
+        margin: 15px 15px 15px 15px;
         width: 320;
         overflow: hidden;
     }
@@ -639,7 +639,7 @@ font-size: 12.0pt;
     }
 
     .product-wrapper .featured-image, .related-products .featured-image  {
-        height: 450px;
+        height: 400px;
         justify-content: space-between;
         overflow: hidden;
     }
