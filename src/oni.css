@@ -639,7 +639,7 @@ font-size: 12.0pt;
     }
 
     .product-wrapper .featured-image, .related-products .featured-image  {
-        height: 400px;
+        height: 200px;
         justify-content: space-between;
         overflow: hidden;
     }
