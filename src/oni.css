@@ -623,9 +623,9 @@ font-size: 12.0pt;
     }
 	.index-page .product-wrapper .items {
         width: calc(50% - 7.5px);
-        margin: 0px auto 15px auto;
-        width: 320;
-      
+        margin: 0px 0px 15px auto;
+        width: 320px;
+        overflow-x: hidden;
     }
     .index-page .product-wrapper .items .info span:first-child {
         text-transform: capitalize;
@@ -639,7 +639,7 @@ font-size: 12.0pt;
     }
 
     .product-wrapper .featured-image, .related-products .featured-image  {
-        height: 300px;
+        height: 400px;
         justify-content: space-between;
         overflow: hidden;
     }
