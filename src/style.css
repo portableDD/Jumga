@@ -1,0 +1,136 @@
+@media (max-width: 980px) {
+    header {
+		display: block;
+		max-width: 800px;
+		margin: 0px auto;
+		padding: unset;
+		width: unset;
+		height: unset;
+	}
+	.site-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 70px;
+	}
+    .site-logo {
+        display: block;
+        margin: unset;
+        position: relative;
+        top: 6px;
+        left: 30px;
+    }
+    .toggle-menu {
+        visibility: visible;
+        position: absolute;
+        left: 90%;
+        top: 3.5%;
+        width: 23px;
+        cursor: pointer;
+        z-index: 9999;
+    }
+    header nav {
+        visibility: hidden;
+    }
+	header nav {
+		display: flex;
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		top: 0px;
+		left: 0px;
+		background: #2226;
+		z-index: -2000;
+		opacity: 0;
+		transition: all 0.2s ease-in-out;
+	}
+	header nav .search-bar {
+		margin: auto 0px;
+		color: #919191;
+	}
+	header nav::after {
+		content: "";
+		display: block;
+		height: 100%;
+		background: transparent;
+		flex: 1;
+		cursor: pointer;
+	}
+	header nav ul {
+		top: 0px;
+		background: #444;
+		width: 200px;
+		height: 100%;
+		z-index: 200;
+		position: absolute;
+	}
+	header nav ul li {
+		font-size: 16px;
+		font-weight: 400;
+	}
+	header nav ul li a {
+		display: block;
+		color: #b9b9b9;
+		padding: 18px 20px;
+		text-transform: capitalize;
+	}
+	header nav ul li a:hover {
+		background: #5d5b5b;
+    }
+    .slide-show {
+		display: flex;
+		justify-content: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 300px;
+	}
+	.slide-show .slide-product {
+		max-width: 800px;
+	}
+	.slide-show .slide-product img {
+		display: block;
+		/*width: 380px;
+		height: 230px;*/
+		max-height: 225px;
+		margin-right: 0px;
+	}
+
+	.slide-show .info {
+		max-width: 800px;
+		padding: unset;
+		margin: 0px auto;
+	}
+	.slide-show .info span:first-child {
+		font-size: 35px;
+		margin-bottom: 10px;
+	}
+	.slide-show .info a {
+		margin-top: 40px;
+	}
+	/* Index page */
+	.index-page .product-wrapper {
+		max-width: 800px;
+    }
+    .product-wrapper .featured-image, .related-products .featured-image  {
+        height: 250px;
+        justify-content: space-between;
+    }
+	.index-page .product-wrapper .items {
+        width: 280px;
+        max-width: unset;
+	}
+	.product-page .products-items {
+		display: flex;
+	}
+	.product-page .content {
+		margin-top: 0px;
+		margin-left: 15px;
+    }
+    /* .footer-items {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 15px 0px;
+	} */
+}

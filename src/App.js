@@ -9,6 +9,8 @@ import About from './component/About'
 import Contact from './component/Contact'
 import Product from './component/product'
 import Payment from './component/payment'
+import './style.css';
+import './choice.css';
 // import Paystack from './component/paystack'
 
 class App extends Component {

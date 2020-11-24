@@ -1,0 +1,25 @@
+@media (max-width: 500px){
+    .slide-show .info {
+        position: absolute;
+        top: 0px;
+        left: 2%;
+	}
+    .index-page .product-wrapper {
+		max-width: 800px;
+    }
+    .product-wrapper .featured-image, .related-products .featured-image  {
+        height: 250px;
+        justify-content: space-between;
+    }
+	.index-page .product-wrapper .items {
+        width: 220px;
+        max-width: unset;
+	}
+	.product-page .products-items {
+		display: flex;
+	}
+	.product-page .content {
+		margin-top: 0px;
+		margin-left: 15px;
+    }
+}
