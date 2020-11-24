@@ -31,8 +31,7 @@ const initState = {
             image: Image1,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
         },
         {
@@ -43,8 +42,7 @@ const initState = {
             image: Image2,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -56,8 +54,7 @@ const initState = {
             image: Image3,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -69,8 +66,7 @@ const initState = {
             image: Image4,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -82,8 +78,7 @@ const initState = {
             image: Image5,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -95,8 +90,7 @@ const initState = {
             image: Image6,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -108,8 +102,7 @@ const initState = {
             image: Image7,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -121,8 +114,7 @@ const initState = {
             image: Image8,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -134,8 +126,7 @@ const initState = {
             image: Image9,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -147,8 +138,7 @@ const initState = {
             image: Image10,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -160,8 +150,7 @@ const initState = {
             image: Image11,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -173,8 +162,7 @@ const initState = {
             image: Image12,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -186,8 +174,7 @@ const initState = {
             image: Image13,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -199,8 +186,7 @@ const initState = {
             image: Image14,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -212,8 +198,7 @@ const initState = {
             image: Image15,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -225,8 +210,7 @@ const initState = {
             image: Image16,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -238,8 +222,7 @@ const initState = {
             image: Image17,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -251,8 +234,7 @@ const initState = {
             image: Image18,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -264,8 +246,7 @@ const initState = {
             image: Image19,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -277,8 +258,7 @@ const initState = {
             image: Image20,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -290,8 +270,7 @@ const initState = {
             image: Image21,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -306,8 +285,7 @@ const initState = {
             image: Image22, 
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },    
@@ -319,8 +297,7 @@ const initState = {
             image: Image21,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -332,8 +309,7 @@ const initState = {
             image: Image20,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -345,8 +321,7 @@ const initState = {
             image: Image19,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -358,8 +333,7 @@ const initState = {
             image: Image18,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -371,8 +345,7 @@ const initState = {
             image: Image17,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -384,8 +357,7 @@ const initState = {
             image: Image16,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -397,8 +369,7 @@ const initState = {
             image: Image15,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -410,8 +381,7 @@ const initState = {
             image: Image14,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -423,8 +393,7 @@ const initState = {
             image: Image13,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -436,8 +405,7 @@ const initState = {
             image: Image12,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -449,8 +417,7 @@ const initState = {
             image: Image11,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -462,8 +429,7 @@ const initState = {
             image: Image10,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -475,8 +441,7 @@ const initState = {
             image: Image9,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -488,8 +453,7 @@ const initState = {
             image: Image8,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
@@ -501,8 +465,7 @@ const initState = {
             image: Image7,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
-                    \n
-                    We have it available in various sizes and can be built to your preference.
+                    \n We have it available in various sizes and can be built to your preference.
                 `
     
         },
