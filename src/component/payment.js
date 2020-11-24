@@ -164,7 +164,7 @@ class payment extends Component{
                             <div className="info">
                                 <span>Product: {item.name}</span> 
                                 <br/>
-                                <span>vendor: Tetrax magnificent</span> 
+                                <span>vendor: Portable Wears</span> 
                                 <br/>
                                 <span>price: <span id='price'>{item.price}</span></span> 
                                 <br/>
