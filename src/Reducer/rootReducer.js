@@ -30,8 +30,8 @@ const initState = {
             price: '10,000',
             image: Image1,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
         },
@@ -42,8 +42,8 @@ const initState = {
             price: '7000',
             image: Image2,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -55,8 +55,8 @@ const initState = {
             price: '5000',
             image: Image3,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -68,8 +68,8 @@ const initState = {
             price: '15,000',
             image: Image4,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -81,8 +81,8 @@ const initState = {
             price: '7000',
             image: Image5,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -94,8 +94,8 @@ const initState = {
             price: '5,500',
             image: Image6,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -107,8 +107,8 @@ const initState = {
             price: '4,500',
             image: Image7,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -120,8 +120,8 @@ const initState = {
             price: '13,000',
             image: Image8,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -133,8 +133,8 @@ const initState = {
             price: '13,500',
             image: Image9,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -146,8 +146,8 @@ const initState = {
             price: '4,500',
             image: Image10,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -159,8 +159,8 @@ const initState = {
             price: '7000',
             image: Image11,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -172,8 +172,8 @@ const initState = {
             price: '8000',
             image: Image12,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -185,8 +185,8 @@ const initState = {
             price: '6,500',
             image: Image13,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -198,8 +198,8 @@ const initState = {
             price: '6,500',
             image: Image14,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -211,8 +211,8 @@ const initState = {
             price: '7000',
             image: Image15,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -224,8 +224,8 @@ const initState = {
             price: '14,000',
             image: Image16,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -237,8 +237,8 @@ const initState = {
             price: '6,500',
             image: Image17,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -250,8 +250,8 @@ const initState = {
             price: '6,500',
             image: Image18,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -263,8 +263,8 @@ const initState = {
             price: '7000',
             image: Image19,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -276,8 +276,8 @@ const initState = {
             price: '10,000',
             image: Image20,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -289,8 +289,8 @@ const initState = {
             price: '14,500',
             image: Image21,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -305,8 +305,8 @@ const initState = {
             price: '13,500',
             image: Image22, 
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -318,8 +318,8 @@ const initState = {
             price: '14,500',
             image: Image21,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -331,8 +331,8 @@ const initState = {
             price: '10,000',
             image: Image20,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -344,8 +344,8 @@ const initState = {
             price: '7000',
             image: Image19,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -357,8 +357,8 @@ const initState = {
             price: '6,500',
             image: Image18,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -370,8 +370,8 @@ const initState = {
             price: '6,500',
             image: Image17,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -383,8 +383,8 @@ const initState = {
             price: '14,000',
             image: Image16,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -396,8 +396,8 @@ const initState = {
             price: '7000',
             image: Image15,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -409,8 +409,8 @@ const initState = {
             price: '6,500',
             image: Image14,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -422,8 +422,8 @@ const initState = {
             price: '6,500',
             image: Image13,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -435,8 +435,8 @@ const initState = {
             price: '8000',
             image: Image12,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -448,8 +448,8 @@ const initState = {
             price: '7000',
             image: Image11,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -461,8 +461,8 @@ const initState = {
             price: '4,500',
             image: Image10,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -474,8 +474,8 @@ const initState = {
             price: '13,500',
             image: Image9,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -487,8 +487,8 @@ const initState = {
             price: '13,000',
             image: Image8,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
@@ -500,8 +500,8 @@ const initState = {
             price: '4,500',
             image: Image7,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
-            desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness. <br />
+            desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
+                    <br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
