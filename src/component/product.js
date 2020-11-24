@@ -53,7 +53,7 @@ class Product extends Component {
                                      <br/>
                                  </div>
                                  <div className="desc">
-                                    {item.desc} 
+                                     <b>{item.desc}</b>
                                     <p>
                                         <b>
                                         NB:processing takes up to 10 working days 
