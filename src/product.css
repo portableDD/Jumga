@@ -40,6 +40,7 @@
 	flex: 1;
 	font-size: 14px;
 	color: #5d5b5b;
+	white-space: pre-line;
 }
 .desc p {
 	margin-top: 20px;
