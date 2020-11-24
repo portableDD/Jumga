@@ -213,14 +213,22 @@ class payment extends Component{
                                 </p>
                                 <p>{this.state.errors.comment}</p>
                                 <p className="size">
-                                    <select id="size" name="size" >
+                                <input 
+                                    type="text"  
+                                    name="size" 
+                                    value={this.state.input.size} 
+                                    onChange={this.handleChange} 
+                                    className='shape'  
+                                    placeholder="Enter shoe size" 
+                                    id="size"/>
+                                    {/* <select id="size" name="size" >
                                         <option>Select shoe size</option>
                                         <option>20</option>
                                         <option>22</option>
                                         <option>25</option>
                                         <option>27</option>
                                         <option>30</option>
-                                    </select>
+                                    </select> */}
                                 </p>
                                <PaystackButton {...componentProps} />
                             </form>

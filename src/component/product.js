@@ -56,9 +56,8 @@ class Product extends Component {
                                     {item.desc} 
                                     <p>
                                         <b>
-                                            Delivery is 5-7 days nationwide.
-                                            <br/>
-                                            The sizes that are available include:42-45
+                                        NB:processing takes up to 10 working days 
+                                        and world wide delivery is available.
                                         </b>
                                      </p>
                                  </div>
