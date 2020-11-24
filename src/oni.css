@@ -370,7 +370,6 @@ header nav ul li a {
 .index-page .product-wrapper {
     display: flex;
     flex-wrap:  wrap;
-    max-width: 560px;
     justify-content: space-between;
     margin: 0px auto;
 }
