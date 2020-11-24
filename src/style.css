@@ -121,7 +121,7 @@
         max-width: unset;
 	}
 	.product-page .products-items {
-		display: flex;
+		display: block;
 	}
 	.product-page .content {
 		margin-top: 0px;

@@ -1,4 +1,4 @@
-.product-page .products-items{
+ .products-items{
     display: flex;
     flex-wrap: wrap;
 }
@@ -101,8 +101,8 @@
 }
 
 
-@media screen and (max-width: 980px) {
-	.product-page .products-items{
+@media  (max-width: 980px) {
+	.product-page .products-items {
 		display: block;
 	}
 
@@ -126,8 +126,8 @@
 	height: 350px;
 } 
  .product-page .featured-image img {
-	max-width: 350px;
-	max-height: 350px;
+	max-width: 200px;
+	max-height: 200px;
 	justify-content: center;
 } 
 

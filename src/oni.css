@@ -4,7 +4,6 @@
 	list-style: none;
 	text-decoration: none;
     font-family: sans-serif;
-    box-sizing: border-box;
 }
 
 html {
@@ -16,21 +15,16 @@ html {
 body {
 	background: #fff;
     max-width: 100%;
-    margin: 0;
-    padding: 0;
     color: #333;
 }
 
 header {
-    
     max-width: 1000px; 
     margin: 0px auto;
     padding: unset;
     width: unset;
     height: unset;
 } 
-
-
 
 .site-header {
     display: flex;
