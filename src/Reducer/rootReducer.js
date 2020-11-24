@@ -475,7 +475,7 @@ const initState = {
             image: Image9,
             size: [{id: 1, num:20},{id: 2,num:22},{id:3, num:25},{id:4, num:27},{id:4, num:30}],
             desc: `This is made with genuine and high quality leather to ensure  
-                    durability and foot-friendliness.<br/>
+                    durability and foot-friendliness.<br />
                     We have it available in various sizes and can be built to your preference.
                 `
     
