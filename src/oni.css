@@ -133,16 +133,18 @@ header nav ul li a {
 
 .side-menu {
     height: 100%;
-    width: 30%;
-    top: 60px;
+    margin: auto 0px;
     bottom: 0;
     z-index: 1;
     font-size: 30px;
     float: left;
+    background: transparent;
     background-color: #ddd;
     margin-left: 0;
     position: fixed;
     visibility: hidden;
+    overflow: hidden;
+    transition: all 0.2s linear;
   }
   
 .side-menu ul {
@@ -173,7 +175,7 @@ header nav ul li a {
     position: fixed;
     background: #ececec;
     box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.5);
-    color: black;
+    /* color: black; */
 }
 /* amination */
 .slideshow-container {
