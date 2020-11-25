@@ -1,4 +1,4 @@
- .products-items{
+ .product-page .products-items{
     display: flex;
     flex-wrap: wrap;
 }
@@ -119,11 +119,11 @@
 }
 
 .product-wrapper .featured-image, .related-products .featured-image  {
-	height: 450px;
+	height: 250px;
 	justify-content: space-between;
 }
  .product-page .featured-image {
-	height: 350px;
+	height: 250px;
 } 
  .product-page .featured-image img {
 	max-width: 200px;
