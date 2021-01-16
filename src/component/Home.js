@@ -7,7 +7,7 @@ import Animation from '../animation/animi'
 class Home extends Component {
     
     render() {
-        const view = this.props.data;
+        const view = this.props.root;
         const post = view.length ? (
             view.map(pod => {
                 const stew = pod.name
@@ -48,7 +48,7 @@ class Home extends Component {
 
 const mapStateToProps = (state) => {
     return{
-        data: state.data
+        root: state.root.data
     }
 }
 

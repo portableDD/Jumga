@@ -10,6 +10,7 @@
     "firebase": "^8.1.1",
     "netlify-cli": "^2.68.7",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.4.3",
     "react-dom": "^17.0.1",
     "react-native-paystack-webview": "^3.2.1",
     "react-paystack": "^3.0.2",
@@ -20,6 +21,8 @@
     "react-transition-group": "1.x",
     "reactstrap": "^8.7.1",
     "redux": "^4.0.5",
+    "redux-form": "^8.3.7",
+    "redux-thunk": "^2.3.0",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

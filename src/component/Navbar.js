@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../pics/logo.oni.png'
+// import logo from '../pics/logo.oni.png'
 import { Link, NavLink } from 'react-router-dom'
 
 const Navbar = () => {
@@ -7,11 +7,11 @@ const Navbar = () => {
         <div>
             <header>
                 <div className="site-header">
-                    <div className = "site-logo">
+                    {/* <div className = "site-logo">
                         <a href= "/">
                             <img src= {logo} alt= "the logo"/>
                         </a>
-                    </div>
+                    </div> */}
 
                     <nav className="site-menu">
                         <form className= "search">
@@ -26,6 +26,13 @@ const Navbar = () => {
                             <li><NavLink to="/slipper">Slippers</NavLink></li>
                             <li><NavLink to="/contact">Contact Us </NavLink></li>
                             <li><NavLink to="/about">About Us</NavLink></li>
+                            <li>
+                                <button>
+                                    <NavLink to="/sign-in">
+                                        Sign up as seller
+                                    </NavLink>
+                                </button>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -43,6 +50,13 @@ const Navbar = () => {
                     <li><NavLink to="/slipper">Slippers</NavLink></li>
                     <li><NavLink to="/contact">Contact Us </NavLink></li>
                     <li><NavLink to="/about">About Us</NavLink></li>
+                    <li>
+                        <button>
+                            <NavLink to="/sign-up">
+                                Sign up as seller
+                            </NavLink>
+                        </button>
+                    </li>
                 </ul>
             </div>
         </div>

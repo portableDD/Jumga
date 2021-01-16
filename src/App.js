@@ -9,6 +9,8 @@ import About from './component/About'
 import Contact from './component/Contact'
 import Product from './component/product'
 import Payment from './component/payment'
+import Sign from './component/sign-in'
+import Shop from './component/shop'
 import './style.css';
 import './choice.css';
 // import Paystack from './component/paystack'
@@ -27,7 +29,8 @@ class App extends Component {
           <Route path='/contact' component={Contact} />
           <Route path='/product' component={Product} />
           <Route path='/payment' component={Payment} />
-          {/* <Route path='/paystack' component={Paystack} /> */}
+          <Route path='/sign-in' component={Sign} />
+          <Route path='/shop' component={Shop} />
         </div>
       </BrowserRouter>
       

@@ -6,7 +6,7 @@ import Animation from '../animation/animi'
 
 class Product extends Component {
     render() {
-        const show = this.props.info;
+        const show = this.props.roof;
         const showList = show.length ? (
             show.map(post =>{
                 const dry = post.name
@@ -31,7 +31,7 @@ class Product extends Component {
         const search = this.props.location.search;
         const foo = new URLSearchParams(search);
         const params = foo.get('name');
-        const life = this.props.data;
+        const life = this.props.root;
         const lifeList = life.filter(item =>item.name === params).map(item =>{
             const test = item.name;
             const tested = '/payment?name=' + test;
@@ -95,8 +95,8 @@ class Product extends Component {
 
 const mapStateToProps = (state) => {
     return{
-        info: state.info,
-        data: state.data
+        roof: state.root.info,
+        root: state.root.data
     }
 }
 

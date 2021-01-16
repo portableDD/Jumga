@@ -259,8 +259,8 @@ class payment extends Component{
 
 const mapStateToProps = (state) => {
     return{
-        info: state.info,
-        data: state.data
+        info: state.root.info,
+        data: state.root.data
     }
 }
 

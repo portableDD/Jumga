@@ -1,3 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap-theme.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './product.css';
@@ -5,18 +7,25 @@ import './oni.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { createStore } from 'redux';
+// import { createStore } from 'redux';
+import thunk from 'redux-thunk';
 import { Provider } from 'react-redux';
-import rootReducer from './Reducer/rootReducer';
+import RootReducer from './Reducer/rootReducer';
+import { createStore, applyMiddleware, combineReducers } from 'redux';
+// the formReducer () function
+import { reducer as formReducer } from 'redux-form';
 
-const store= createStore(rootReducer);
+const rootReducer = combineReducers({
+  form: formReducer,
+  root: RootReducer
+});
+
+const store= createStore(rootReducer, applyMiddleware(thunk));
 
 ReactDOM.render(
-    <React.StrictMode>
         <Provider store={store}>
             <App />
         </Provider>
-    </React.StrictMode>
 ,document.getElementById('root'));
 
 
