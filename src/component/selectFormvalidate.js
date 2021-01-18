@@ -2,17 +2,24 @@ export const selectForm = values => {
 
     const errors = {};
             
-        if (!values.nameProduct) {
-          errors.nameProduct = "Please enter your product name.";
+        if (!values.name) {
+          errors.name = "Please enter your product name.";
         }
 
         if(!values.price) {
             errors.price ="please enter the amount for the product.";
         }
         
-        if(!values.select) {
-            errors.select = "please pick the product category"
+        if(!values.category) {
+            errors.category = "please pick the product category"
         } 
+
+        if (!values.desc) {
+          errors.desc = "Please give a description of the product.";
+        }
+        console.log(errors);
+       
+        return errors;
 
         // if (!values.phone) {
         //     errors.phone = "Please enter your phone number.";
@@ -38,12 +45,7 @@ export const selectForm = values => {
         //   }
         // }
     
-        if (!values.desc) {
-          errors.desc = "Please give a description of the product.";
-        }
-        console.log(errors);
        
-        return errors;
     
 
     // const errors = {};

@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from "react-bootstrap/Button";
 // import logo from '../pics/logo.oni.png'
 import { Link, NavLink } from 'react-router-dom'
 
@@ -27,12 +28,12 @@ const Navbar = () => {
                             <li><NavLink to="/contact">Contact Us </NavLink></li>
                             <li><NavLink to="/about">About Us</NavLink></li>
                             <li>
-                                <button>
+                                <Button variant="link" size="sm">
                                     <NavLink to="/sign-in">
                                         Sign up as seller
                                     </NavLink>
-                                </button>
-                            </li>
+                                </Button>
+                            </li>                        
                         </ul>
                     </nav>
                 </div>
@@ -51,11 +52,11 @@ const Navbar = () => {
                     <li><NavLink to="/contact">Contact Us </NavLink></li>
                     <li><NavLink to="/about">About Us</NavLink></li>
                     <li>
-                        <button>
+                        <Button>
                             <NavLink to="/sign-up">
                                 Sign up as seller
                             </NavLink>
-                        </button>
+                        </Button>
                     </li>
                 </ul>
             </div>

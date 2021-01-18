@@ -11,7 +11,6 @@ import { connect } from 'react-redux'
  class Sign extends Component {
   render() {
     const { handleSubmit,  pristine, submitting, valid, EmailValue, } = this.props;
-    // const fields = [Name, telePhone, Comment, Owner, Type, EmailValue]
     const email = EmailValue
     const config = {
       reference: (new Date()).getTime(),
@@ -38,7 +37,7 @@ import { connect } from 'react-redux'
     return (
       <div className="container ">
         
-            <Form onSubmit={handleSubmit(values => console.log(values))}>
+            <Form onSubmit={handleSubmit}>
               <Form.Row>
                 <Form.Group as={Col} >
                   <Form.Label>Business Name</Form.Label>
@@ -134,20 +133,10 @@ Sign = reduxForm({
 
 const selector = formValueSelector('selectingFormValues')
 Sign = connect(state => {
-  // can select values individually
   const EmailValue = selector(state, 'email')
-  // const favoriteColorValue = selector(state, 'favoriteColor')
-  // // or together as a group
-  // const { Name, Owner, telePhone, Type, Comment } = selector(state, 'name', 'owner' , 'phone', 'type', 'comment')
   return {
     EmailValue,
-    // Name,
-    // Owner, 
-    // telePhone,
-    // Type,
-    // Comment
-    // favoriteColorValue,
-    // fullName: `${firstName || ''} ${lastName || ''}`
+    
   }
 })(Sign)
 

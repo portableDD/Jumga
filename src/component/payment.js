@@ -24,8 +24,7 @@ class payment extends Component{
         event.preventDefault();
       
         if(this.validate()){
-            
-            console.log(this.state);
+
       
             let input = {};
             input["name"] = "";
@@ -104,7 +103,6 @@ class payment extends Component{
             return item.price
         })
        const price = priceTag.toString().replace(',','') 
-        console.log(price)
         const config = {
             reference: (new Date()).getTime(),
             email: this.state.input.email,
