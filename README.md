@@ -15,4 +15,6 @@ The payment splitting is made between the seller and the rider with ratio 23: 2 
 Jumga charges 2.0% charge from the money paid to the sellers' shop and 20% from the money paid to the Rider.
 
 
-#JUMGA IS BUILT FOR THE PURPOSE OF COMPETING IN THE FLUTTERWAVE DEVELOPER CHALLENGE BY AYOOLUWA and DORCAS
+# JUMGA IS BUILT FOR THE PURPOSE OF COMPETING IN THE FLUTTERWAVE DEVELOPER CHALLENGE BY AYOOLUWA and DORCAS
+
+## DISCLAIMER: To test payment please use flutterwave test cards as this project is still on development mode
