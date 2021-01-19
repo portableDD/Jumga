@@ -19,7 +19,6 @@ class Shop extends Component {
   handleDisplay = () => {
     const form = document.getElementById("addProductSection")
     const homem = document.getElementById("homeSection")
-    // const rider = document.getElementById("2");
       form.style.display = 'block';
       homem.style.display = 'none';
     
@@ -28,8 +27,6 @@ class Shop extends Component {
   handleHome = () => {
     const form = document.getElementById("addProductSection")
     const homem = document.getElementById("homeSection")
-    // const rider = document.getElementById("2")
-    
       form.style.display = 'none';
       homem.style.display = 'block';
       
@@ -48,7 +45,7 @@ class Shop extends Component {
       <Container>
         <h1 className="text-center text-uppercase font-weight-bold" >{busName}</h1>
         <Row>
-          <Col xs={4} md={4} sm xl={2} lg={3}>
+          <Col sm={6} xl={2} lg={3}>
             <Navbar bg="light" variant="light">
               <Nav className="flex-column" variant="pills" defaultActiveKey="#homeSection">
                 <Nav.Item>
@@ -60,7 +57,8 @@ class Shop extends Component {
               </Nav>
             </Navbar>
           </Col>
-          <Col className="bg-light">
+          <Col className="freeze pb-3" sm={1} xs={0} ></Col>
+          <Col className="bg-light" sm={4} lg={9}>
             <div id="homeSection" className=" pt-3" >
               <h6 className="pl-5"> Owner's Name : {ownerName}</h6>
               <h6 className="pt-2 pl-5">Business Address : {busAddress}</h6>
@@ -69,7 +67,7 @@ class Shop extends Component {
               <h6 className="pt-2 pl-5 pb-2">Email Address: {email}</h6>
             </div>
             <div id='addProductSection' style={{display:'none'}} >
-              <Form onSubmit={handleSubmit}>
+              <Form onSubmit={handleSubmit} className='pt-3'>
                 <Form.Row>
                   <Form.Group as={Col} >
                     <Form.Label>Name of product</Form.Label>

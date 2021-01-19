@@ -31,7 +31,7 @@ export default class Sign extends Component {
             <Container >
                 <Col md={{ span: 6, offset: 3 }} >
                 <Form onSubmit={this.handleSubmit} className="pt-5">
-                    <Form.Group Id="Email">
+                    <Form.Group id="Email">
                         <Form.Label>Email address</Form.Label>
                         <Form.Control type="email" placeholder="Enter email" onChange={this.handleEmailChange}/>
                         <Form.Text className="text-muted" >
@@ -39,7 +39,7 @@ export default class Sign extends Component {
                         </Form.Text>
                     </Form.Group>
 
-                    <Form.Group Id="Password">
+                    <Form.Group id="Password">
                         <Form.Label>Password</Form.Label>
                         <Form.Control type="password" placeholder="Password" onChange={this.handlePasswordChange} />
                     </Form.Group>

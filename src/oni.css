@@ -55,7 +55,7 @@ ul {
     color: black;
 } */
 
- nav li a {
+  li a {
     display: block;
     padding: 8px;
     text-decoration: none;
@@ -157,7 +157,10 @@ header nav ul li a {
 .side-menu ul {
     margin-left: 10px;
 }
-  
+.side-menu a{
+    text-decoration: none;
+    color: black;
+}  
 .side-menu ul li {
     list-style-type: none;
     height: 40px;
