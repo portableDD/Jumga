@@ -62,7 +62,7 @@ import {  auth } from '../utils/app';
         const config = {
             tx_ref: (new Date()).getTime(),
             amount: 20,
-            public_key: 'FLWPUBK_TEST-cc5cd42f6cd21196275f0021533d0ac9-X',
+            public_key: `${process.env.REACT_APP_FLUTTER_WAVE_PUBLIC_KEY}`,
             currency: 'USD',
             payment_options: 'card,mobilemoney,ussd',
             customer: {

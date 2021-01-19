@@ -117,18 +117,18 @@ class payment extends Component{
             },
             subaccounts: [
               {
-                id: "RS_3D9AE70EF251C8C0900462B6F32B009C",
+                id: `${process.env.REACT_APP_SELLER_ACCOUNT}`,
                 transaction_split_ratio: 23,
               },
               {
-                id: "RS_006C1B504310E09B9F4697E409FF2BC0",
+                id: `${process.env.REACT_APP_RIDER_ACOUNT}`,
                 transaction_split_ratio: 2,
               },
             ],
             customizations: {
               title: "Jumga",
               description: "Payment for item",
-              logo: "https://assets.piedpiper.com/logo.png",
+              logo: "https://st2.depositphotos.com/4403291/7418/v/450/depositphotos_74189661-stock-illustration-online-shop-log.jpg",
             },
           }; 
         const handleSuccessAction = (reference) => {
