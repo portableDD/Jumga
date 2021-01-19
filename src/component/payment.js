@@ -3,7 +3,9 @@ import {connect} from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import Animation from '../animation/animi';
 import Footer from './footer';
-import { PaystackButton } from 'react-paystack'
+import { PaystackButton } from 'react-paystack';
+import { FlutterWaveButton } from 'flutterwave-react-v3';
+
 
 
 class payment extends Component{
@@ -104,23 +106,44 @@ class payment extends Component{
         })
        const price = priceTag.toString().replace(',','') 
         const config = {
-            reference: (new Date()).getTime(),
-            email: this.state.input.email,
-            amount: price + '00',
-            publicKey: "pk_test_82ce23694563611af6015b7bdfc1dd4a1f044acf",
-        }; 
-        const handlePaystackSuccessAction = (reference) => {
+            public_key: "FLWPUBK_TEST-cc5cd42f6cd21196275f0021533d0ac9-X",
+            tx_ref: (new Date()).getTime(),
+            amount: price,
+            currency: "USD",
+            payment_options: "card,ussd,qr,barter",
+            customer: {
+              email: 'olifedayo94@gmail.com',
+              phonenumber: "08165656988",
+              name: param,
+            },
+            subaccounts: [
+              {
+                id: "RS_A8EB7D4D9C66C0B1C75014EE67D4D663",
+                transaction_split_ratio: 2,
+              },
+              {
+                id: "RS_006C1B504310E09B9F4697E409FF2BC0",
+                transaction_split_ratio: 2,
+              },
+            ],
+            customizations: {
+              title: "Jumga",
+              description: "Payment for item",
+              logo: "https://assets.piedpiper.com/logo.png",
+            },
+          }; 
+        const handleSuccessAction = (reference) => {
             alert("Transaction complete!! Thanks for doing business with us! Come back soon!!")        
           };
-          const handlePaystackCloseAction = () => {
+          const handleCloseAction = () => {
             alert("whoops! Transaction cancelled ")   
           }
       
           const componentProps = {
               ...config,
               text: 'Pay now',
-              onSuccess: (reference) => handlePaystackSuccessAction(reference),
-              onClose: handlePaystackCloseAction,
+              callback: (reference) => handleSuccessAction(reference),
+              onClose: handleCloseAction,
           };
     
         const show = this.props.info;
@@ -228,7 +251,7 @@ class payment extends Component{
                                         <option>30</option>
                                     </select> */}
                                 </p>
-                               <PaystackButton {...componentProps} />
+                               <FlutterWaveButton {...componentProps} />
                             </form>
                         </div>
                     </div>    

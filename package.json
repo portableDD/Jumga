@@ -7,7 +7,8 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "bootstrap": "^4.5.3",
-    "firebase": "^8.1.1",
+    "firebase": "^8.2.3",
+    "flutterwave-react-v3": "^1.0.9",
     "netlify-cli": "^2.68.7",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.3",
@@ -23,6 +24,7 @@
     "redux": "^4.0.5",
     "redux-form": "^8.3.7",
     "redux-thunk": "^2.3.0",
+    "request": "^2.88.2",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
