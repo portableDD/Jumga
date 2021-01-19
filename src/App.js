@@ -9,14 +9,14 @@ import About from './component/About'
 import Contact from './component/Contact'
 import Product from './component/product'
 import Payment from './component/payment'
-import Sign from './component/sign-in'
+import LogIn from './component/sign-up'
 import SignUp from './component/newSignup';
 import Shop from './component/shop'
 import './style.css';
 import './choice.css';
 import './utils/app';
 import { app, auth } from './utils/app';
-// import Paystack from './component/paystack'
+
 
 class App extends Component {
   render() {
@@ -32,7 +32,8 @@ class App extends Component {
           <Route path='/contact' component={Contact} />
           <Route path='/product' component={Product} />
           <Route path='/payment' component={Payment} />
-          <Route path='/sign-in' component={SignUp} />
+          <Route path='/sign-in' component={LogIn} />
+          <Route path='/sign-up' component={SignUp} />
           <Route path='/shop' component={Shop} />
         </div>
       </BrowserRouter>

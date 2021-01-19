@@ -5,7 +5,7 @@ import Background2 from '../pics/animi pics/slide 2/slide-background2.jpg'
 import Slide2 from '../pics/animi pics/slide 2/slide-shoe2.png'
 import Background3 from '../pics/animi pics/slide 3/slide-background3.png'
 import Slide3 from '../pics/animi pics/slide 3/slide-shoe3.png'
-import Background4 from '../pics/animi pics/slide 4/slide-background4.jpg'
+// import Background4 from '../pics/animi pics/slide 4/slide-background4.jpg'
 import { Spring } from 'react-spring/renderprops'
 import { animated } from 'react-spring/renderprops'
 
@@ -187,7 +187,7 @@ export default class animi extends Component {
                             </animated.div>
                         )}
                 </Spring>
-                <Spring native to={{x: 0}}
+                {/* <Spring native to={{x: 0}}
                         config={{duration: 10000}}>
                         {props => (
                             <animated.div className="slide-show slide-4" id='4' style={{
@@ -203,7 +203,7 @@ export default class animi extends Component {
                                 />
                             </animated.div>
                         )}
-                </Spring>
+                </Spring> */}
                 </div>
 
         )

@@ -19,25 +19,21 @@ class Shop extends Component {
   handleDisplay = () => {
     const form = document.getElementById("addProductSection")
     const homem = document.getElementById("homeSection")
-    const rider = document.getElementById("2");
       form.style.display = 'block';
       homem.style.display = 'none';
-      // rider.style.display = 'none';
-      // display.style.visibility = 'visible'
+    
   }
 
   handleHome = () => {
     const form = document.getElementById("addProductSection")
     const homem = document.getElementById("homeSection")
-    const rider = document.getElementById("2")
     
       form.style.display = 'none';
       homem.style.display = 'block';
-      // rider.style.display = 'none';
-      // display.style.visibility = 'visible'
+      
   }
   render() {
-    // const randomId = Math.round(Math.random() * 100000000)
+    
     const { Name, Phone, EmailValue, Type, Comment, Owner, handleSubmit, pristine, submitting, valid, } = this.props
     const ownerName = Name
     const phoneNum = Phone
@@ -59,9 +55,6 @@ class Shop extends Component {
                 <Nav.Item>
                   <Nav.Link href="#addProductSection" id="display" onClick={this.handleDisplay}>Add Product</Nav.Link>
                 </Nav.Item>
-                {/* <Nav.Item>
-                  <Nav.Link href="#1">List Of Product</Nav.Link>
-                </Nav.Item> */}
                 <Nav.Item>
                   <Nav.Link href="#2">View Rider</Nav.Link>
                 </Nav.Item>
