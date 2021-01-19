@@ -173,22 +173,32 @@ import {  auth, db } from '../utils/app';
               
 
               <Form.Row>
+                <Form.Group as={Col}>
+                  <Form.Label>Business Type</Form.Label>
+                  <Field
+                    name="type"
+                    type="text"
+                    component={input}
+                    id="type"
+                    placeholder="Enter your business type"
+                  />
+                </Form.Group>
+                <Form.Group as={Col} >
+                    <Form.Label>Phone Number</Form.Label>
+                    <Field
+                      name="phone"
+                      type="text"
+                      component={input}
+                      id="phone-num"
+                      placeholder="Enter your phone"
+                    />
+                  </Form.Group>
+              </Form.Row>
+              <Form.Row>
                 <Form.Group as={Col} >
                   <Form.Label>Email</Form.Label>
                   <Field
                     name="email"
-                    type="text"
-                    component={input}
-                    id="email"
-                    placeholder="Enter your email"
-                    onChange={this.handleEmailChange}
-                  />
-                </Form.Group>
-                
-                <Form.Group as={Col} >
-                  <Form.Label>Phone Number</Form.Label>
-                  <Field
-                    name="phone"
                     type="text"
                     component={input}
                     id="phone-num"
@@ -196,12 +206,11 @@ import {  auth, db } from '../utils/app';
                     onChange = {this.handlePhoneChange}
                   />
                 </Form.Group>
-
                 <Form.Group as={Col} >
                   <Form.Label>Password</Form.Label>
                   <Field
                     name="password"
-                    type="text"
+                    type="password"
                     component={input}
                     id="password"
                     placeholder="Enter your password"

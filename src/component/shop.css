@@ -1,0 +1,8 @@
+.freeze{
+    display: none;
+}
+@media  (max-width: 500px){
+    .freeze{
+        display: block;
+    }
+}

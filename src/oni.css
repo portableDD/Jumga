@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    max-width: 1000px; 
+    max-width: 1200px; 
     margin: 0px auto;
     padding: unset;
     width: unset;
@@ -32,28 +32,34 @@ header {
     align-items: center; 
     height: 70px;
 }
-.site-logo img {
-	height: 35px;
-	font-weight: 600;
-}
 .site-logo {
 	display: block;
 	margin: auto;
-	position: relative;
+    position: relative;
+    height: 35px;
+    font-weight: bolder;
+    top:15px;
 }
-
+.site-logo a{
+    text-decoration: none;
+    color: #919191;
+}
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+/* a {
+    text-decoration: none;
+    color: black;
+} */
 
-li a {
+  li a {
     display: block;
     padding: 8px;
     text-decoration: none;
-    color: black;
+    /* color: black; */
 }
 .search input {
     border: 1px solid #dfe1e5;
@@ -97,6 +103,7 @@ header nav ul li a {
     height: 70px;
     color: #919191;
     text-transform: capitalize;
+    text-decoration: none;
 }
 
 .toggle-menu {
@@ -150,7 +157,10 @@ header nav ul li a {
 .side-menu ul {
     margin-left: 10px;
 }
-  
+.side-menu a{
+    text-decoration: none;
+    color: black;
+}  
 .side-menu ul li {
     list-style-type: none;
     height: 40px;

@@ -14,7 +14,7 @@ const Footer = () => {
                 <h6>Contacts</h6>
                 <p>
                     <span>
-                        <b>FUTA SOUTH GATE AKURE, NIGERIA.</b>
+                        <b>ADEMOLA ALABI, OLUSOSUN, IKEJA, LAGOS.</b>
                     </span>
                     <span>
                         <i className = "fas fa-phone">
@@ -32,7 +32,7 @@ const Footer = () => {
                         <i className = "fas fa-envelope">
                             <img src={Gmail} alt='gmail icon' />
                         </i>
-                        onibataonlinestore@gmail.com
+                        emmanueldorcas@15@gmail.com
                     </span>
                 </p>
             </div>
@@ -42,7 +42,7 @@ const Footer = () => {
                         <img src= {Facebook}  alt='facebook icon'/>
                     </i>
                 </a>
-                <a href ="https://twitter.com/OniBataNG?s=08">
+                <a href ="https://twitter.com/ayolovisgod">
                     <i className = "fas fa-twitter">
                         <img src ={Twitter} alt='twitter icon' />
                     </i>
@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
         <div className= "footer-credits">
             <span>
-                Copyright @ 2020 - onibata | 
+                Copyright @ 2020 - Jumga | 
                 <a href='hhagbdnm'>PortableWebTech</a>
             </span>
         </div>

@@ -1,6 +1,4 @@
 import React from 'react'
-import Button from "react-bootstrap/Button";
-// import logo from '../pics/logo.oni.png'
 import { Link, NavLink } from 'react-router-dom'
 
 const Navbar = () => {
@@ -8,11 +6,11 @@ const Navbar = () => {
         <div>
             <header>
                 <div className="site-header">
-                    {/* <div className = "site-logo">
+                    <div className = "site-logo">
                         <a href= "/">
-                            <img src= {logo} alt= "the logo"/>
+                            JUMGA
                         </a>
-                    </div> */}
+                    </div>
 
                     <nav className="site-menu">
                         <form className= "search">
@@ -28,11 +26,9 @@ const Navbar = () => {
                             <li><NavLink to="/contact">Contact Us </NavLink></li>
                             <li><NavLink to="/about">About Us</NavLink></li>
                             <li>
-                                <Button variant="link" size="sm">
-                                    <NavLink to="/sign-in">
-                                        Sign up as seller
-                                    </NavLink>
-                                </Button>
+                                <NavLink to="/sign-in">
+                                    Sign up as seller
+                                </NavLink>
                             </li>                        
                         </ul>
                     </nav>
@@ -52,11 +48,9 @@ const Navbar = () => {
                     <li><NavLink to="/contact">Contact Us </NavLink></li>
                     <li><NavLink to="/about">About Us</NavLink></li>
                     <li>
-                        <Button>
-                            <NavLink to="/sign-up">
-                                Sign up as seller
-                            </NavLink>
-                        </Button>
+                        <NavLink to="/sign-in">
+                            Sign up as seller
+                        </NavLink>
                     </li>
                 </ul>
             </div>

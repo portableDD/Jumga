@@ -472,7 +472,6 @@ const initState = {
 }
 
 const rootReducer = (state = initState, action) => {
-    console.log(action)
     if(action.type ==="ADD_DATA"){
         // let newData = state.data.filter(data => {
         //     return action.id !== data.id
@@ -482,7 +481,6 @@ const rootReducer = (state = initState, action) => {
             data: [...state.data,action.data]
         }
     }
-    console.log(state.data)
     return state;
     
 }
