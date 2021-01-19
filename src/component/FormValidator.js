@@ -41,6 +41,10 @@ export const formValidatorHelper = values => {
         if (!values.comment) {
           errors.comment = "Please enter your  Business address.";
         }
+
+        if (!values.password) {
+          errors.password = "Please enter your password.";
+        }
         console.log(errors);
        
         return errors;
