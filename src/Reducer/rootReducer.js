@@ -27,7 +27,7 @@ const initState = {
             id: 1,
             name: 'TMI BROWN VIBRAM',
             category: 'slipper',
-            price: '10,000',
+            price: '100',
             image: Image1,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -38,7 +38,7 @@ const initState = {
             id: 2,
             name: 'TMI LEATHER SLIPPERS',
             category: 'slipper',
-            price: '7000',
+            price: '700',
             image: Image2,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -50,7 +50,7 @@ const initState = {
             id: 3,
             name: 'ENUGUIGA SIMPLE SLIPPERS',
             category: 'slipper',
-            price: '5000',
+            price: '50',
             image: Image3,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -62,7 +62,7 @@ const initState = {
             id: 4,
             name: 'CHELSEA BOOT',
             category: 'shoe',
-            price: '15,000',
+            price: '150',
             image: Image4,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -74,7 +74,7 @@ const initState = {
             id: 5,
             name: 'TMI LEATHER SLIDES',
             category: 'slipper',
-            price: '7000',
+            price: '70',
             image: Image5,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -86,7 +86,7 @@ const initState = {
             id: 6,
             name: 'ENUGUIGA FEMALE SANDAL',
             category: 'sandal',
-            price: '5,500',
+            price: '50',
             image: Image6,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -98,7 +98,7 @@ const initState = {
             id: 7,
             name: 'ENUGUIGA UNISEX SLIDES',
             category: 'slipper',
-            price: '4,500',
+            price: '40',
             image: Image7,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -110,7 +110,7 @@ const initState = {
             id: 8,
             name: 'BLUE LOAFERS',
             category: 'shoe',
-            price: '13,000',
+            price: '130',
             image: Image8,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -122,7 +122,7 @@ const initState = {
             id:9,
             name: 'BROWN LOAFERS',
             category: 'shoe',
-            price: '13,500',
+            price: '130',
             image: Image9,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -134,7 +134,7 @@ const initState = {
             id: 10,
             name: 'ENUGUIGA FEMALE SLIDES',
             category: 'slipper',
-            price: '4,500',
+            price: '40',
             image: Image10,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -146,7 +146,7 @@ const initState = {
             id: 11,
             name: 'FASHIONABLE LEATHER SLIPPERS',
             category: 'slipper',
-            price: '7000',
+            price: '70',
             image: Image11,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -158,7 +158,7 @@ const initState = {
             id: 12,
             name: 'FEMALE LEATHER SLIPPERS',
             category: 'slipper',
-            price: '8000',
+            price: '80',
             image: Image12,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -170,7 +170,7 @@ const initState = {
             id: 13,
             name: 'BROWN GLADIATOR SANDAL',
             category: 'sandal',
-            price: '6,500',
+            price: '60',
             image: Image13,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -182,7 +182,7 @@ const initState = {
             id: 14,
             name: 'GLADIATOR SANDAL',
             category: 'sandal',
-            price: '6,500',
+            price: '60',
             image: Image14,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -194,7 +194,7 @@ const initState = {
             id: 15,
             name: 'BLACK HONDMADE SANDAL',
             category: 'sandal',
-            price: '7000',
+            price: '70',
             image: Image15,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -206,7 +206,7 @@ const initState = {
             id: 16,
             name: 'SINGLE MONK STRAP',
             category: 'shoe',
-            price: '14,000',
+            price: '140',
             image: Image16,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -218,7 +218,7 @@ const initState = {
             id:17,
             name: 'LEATHER BIRKENSTOCK',
             category: 'slipper',
-            price: '6,500',
+            price: '60',
             image: Image17,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -230,7 +230,7 @@ const initState = {
             id:18,
             name: 'MEN BLACK LEATHER SLIPPERS',
             category: 'slipper',
-            price: '6,500',
+            price: '60',
             image: Image18,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -242,7 +242,7 @@ const initState = {
             id:19,
             name: 'SIMPLE LEATHER SANDAL',
             category: 'sandal',
-            price: '7000',
+            price: '70',
             image: Image19,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -254,7 +254,7 @@ const initState = {
             id:20,
             name: 'BROWN BUSINESS SANDAL',
             category: 'sandal',
-            price: '10,000',
+            price: '100',
             image: Image20,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -266,7 +266,7 @@ const initState = {
             id: 21,
             name: 'BROWN SUEDE CHELSEA BOOT',
             category: 'shoe',
-            price: '14,500',
+            price: '140',
             image: Image21,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -281,7 +281,7 @@ const initState = {
             id: 1,
             name: 'BLACK DOUBLE MONK STRAP',
             category: 'sales',
-            price: '13,500',
+            price: '130',
             image: Image22, 
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -293,7 +293,7 @@ const initState = {
             id: 2,
             name: 'BROWN SUEDE CHELSEA BOOT',
             category: 'shoe',
-            price: '14,500',
+            price: '140',
             image: Image21,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -305,7 +305,7 @@ const initState = {
             id: 3,
             name: 'BROWN BUSINESS SANDAL',
             category: 'sandal',
-            price: '10,000',
+            price: '100',
             image: Image20,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -317,7 +317,7 @@ const initState = {
             id: 4,
             name: 'SIMPLE LEATHER SANDAL',
             category: 'sandal',
-            price: '7000',
+            price: '70',
             image: Image19,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -329,7 +329,7 @@ const initState = {
             id : 5,
             name: 'MEN BLACK LEATHER SLIPPERS',
             category: 'slipper',
-            price: '6,500',
+            price: '60',
             image: Image18,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -341,7 +341,7 @@ const initState = {
             id: 6,
             name: 'LEATHER BIRKENSTOCK',
             category: 'slipper',
-            price: '6,500',
+            price: '60',
             image: Image17,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -353,7 +353,7 @@ const initState = {
             id: 7,
             name: 'SINGLE MONK STRAP',
             category: 'shoe',
-            price: '14,000',
+            price: '140',
             image: Image16,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -365,8 +365,7 @@ const initState = {
             id: 8,
             name: 'BLACK HONDMADE SANDAL',
             category: 'sandal',
-            price: '7000',
-            image: Image15,
+            price: '70',
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
                     \n We have it available in various sizes and can be built to your preference.
@@ -377,7 +376,7 @@ const initState = {
             id: 9,
             name: 'GLADIATOR SANDAL',
             category: 'sandal',
-            price: '6,500',
+            price: '60',
             image: Image14,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -389,7 +388,7 @@ const initState = {
             id: 10,
             name: 'BROWN GLADIATOR SANDAL',
             category: 'sandal',
-            price: '6,500',
+            price: '60',
             image: Image13,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -401,7 +400,7 @@ const initState = {
             id: 11,
             name: 'FEMALE LEATHER SLIPPERS',
             category: 'slipper',
-            price: '8000',
+            price: '80',
             image: Image12,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -413,7 +412,7 @@ const initState = {
             id: 12,
             name: 'FASHIONABLE LEATHER SLIPPERS',
             category: 'slipper',
-            price: '7000',
+            price: '70',
             image: Image11,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -425,7 +424,7 @@ const initState = {
             id: 13,
             name: 'ENUGUIGA FEMALE SLIDES',
             category: 'slipper',
-            price: '4,500',
+            price: '40',
             image: Image10,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -437,7 +436,7 @@ const initState = {
             id: 14,
             name: 'BROWN LOAFERS',
             category: 'shoe',
-            price: '13,500',
+            price: '130',
             image: Image9,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -449,7 +448,7 @@ const initState = {
             id: 15,
             name: 'BLUE LOAFERS',
             category: 'shoe',
-            price: '13,000',
+            price: '130',
             image: Image8,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 
@@ -461,7 +460,7 @@ const initState = {
             id:16,
             name: 'ENUGUIGA UNISEX SLIDES',
             category: 'slipper',
-            price: '4,500',
+            price: '40',
             image: Image7,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 

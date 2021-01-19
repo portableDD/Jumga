@@ -19,7 +19,7 @@ class Shop extends Component {
   handleDisplay = () => {
     const form = document.getElementById("addProductSection")
     const homem = document.getElementById("homeSection")
-    const rider = document.getElementById("2");
+    // const rider = document.getElementById("2");
       form.style.display = 'block';
       homem.style.display = 'none';
       // rider.style.display = 'none';
@@ -29,7 +29,7 @@ class Shop extends Component {
   handleHome = () => {
     const form = document.getElementById("addProductSection")
     const homem = document.getElementById("homeSection")
-    const rider = document.getElementById("2")
+    // const rider = document.getElementById("2")
     
       form.style.display = 'none';
       homem.style.display = 'block';
@@ -58,12 +58,6 @@ class Shop extends Component {
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link href="#addProductSection" id="display" onClick={this.handleDisplay}>Add Product</Nav.Link>
-                </Nav.Item>
-                {/* <Nav.Item>
-                  <Nav.Link href="#1">List Of Product</Nav.Link>
-                </Nav.Item> */}
-                <Nav.Item>
-                  <Nav.Link href="#2">View Rider</Nav.Link>
                 </Nav.Item>
               </Nav>
             </Navbar>

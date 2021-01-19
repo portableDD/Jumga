@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Form from "react-bootstrap/Form";
 import { reduxForm, Field, formValueSelector } from "redux-form";
 import { input } from "./InputControl";
-// import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col"
 import { formValidatorHelper } from "./FormValidator.js";
 import { FlutterWaveButton, useFlutterwave } from 'flutterwave-react-v3';
@@ -187,14 +186,7 @@ import { app, auth } from '../utils/app';
               
                 <FlutterWaveButton  {...componentProps} disabled={!valid || pristine || submitting}/>
             </Form>
-            {/* <Button variant="primary" type="submit" >
-                Submit
-            </Button> */}
-
-            {/* <Button variant="primary" type="submit">
-                Submit
-              </Button>
-          <Button as="input" type="reset" value="Reset" onClick={reset}/> */}
+           
 
       </div>
     )
