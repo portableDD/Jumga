@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col"
 import { formValidatorHelper } from "./FormValidator.js";
 import { FlutterWaveButton } from 'flutterwave-react-v3';
 import { connect } from 'react-redux'
-import {  auth } from '../utils/app';
+import {  auth, db } from '../utils/app';
 
  class SignUp extends Component {
 
@@ -40,13 +40,35 @@ import {  auth } from '../utils/app';
     handlePhoneChange = event => {
         this.setState({phonenumber: event.target.value})
     }
+
+    handleBusinessNameChange = event => {
+      this.setState({businessName: event.target.value})
+    }
+
+    handleBusTypeChange = event => {
+      this.setState({businessType: event.target.value})
+    }
+
+    handleAddressChange = event => {
+      this.setState({address: event.target.value})
+    }
    
 
     handleFbAuth = async () => {
+      const { useremail, password, businessName, businessType, address, phonenumber, ownerName } = this.state  
       try {
-        const { useremail, password } = this.state  
         console.log(useremail)
-        await auth.createUserWithEmailAndPassword(useremail, password);
+       const user =  await auth.createUserWithEmailAndPassword(useremail, password);
+       if (user) {
+          await db.collection('sellers').add({
+          address,
+          business_name: businessName,
+          business_type: businessType,
+          email: useremail,
+          name: ownerName,
+          phone_number: phonenumber
+         })
+       }
       } catch (error) {
           console.log(error)
           alert(error)
@@ -106,6 +128,7 @@ import {  auth } from '../utils/app';
                       component={input}
                       id="business-name"
                       placeholder="Enter your business name"
+                      onChange= {this.handleBusinessNameChange}
                     />
                 </Form.Group>
                   
@@ -117,6 +140,7 @@ import {  auth } from '../utils/app';
                     component={input}
                     id="owner-name"
                     placeholder="Enter your full name"
+                    onChange={this.handleNameChange}
                   />
                 </Form.Group>
               </Form.Row>
@@ -129,6 +153,7 @@ import {  auth } from '../utils/app';
                   component={input}
                   id="comment"
                   placeholder="Enter your business address"
+                  onChange = {this.handleAddressChange}
                 />
               </Form.Group>
               
@@ -140,6 +165,7 @@ import {  auth } from '../utils/app';
                   component={input}
                   id="type"
                   placeholder="Enter your business type"
+                  onChange= {this.handleBusTypeChange}
                 />
               </Form.Group>
 
@@ -167,6 +193,7 @@ import {  auth } from '../utils/app';
                     component={input}
                     id="phone-num"
                     placeholder="Enter your phone"
+                    onChange = {this.handlePhoneChange}
                   />
                 </Form.Group>
 
