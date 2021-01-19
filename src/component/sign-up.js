@@ -5,11 +5,14 @@ import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col"
 import { auth } from '../utils/app';
 import {  NavLink } from 'react-router-dom'
+import Spinner from 'react-spinner-material';
+
 
 export default class Sign extends Component {
     state = {
         email: '',
-        password: ''
+        password: '',
+        loading: false
     }
     handleEmailChange = (e) => {
         this.setState({email: e.target.value})
@@ -18,17 +21,26 @@ export default class Sign extends Component {
         this.setState({password: e.target.value})
     }
     handleSubmit = async(e) => {
+        this.setState({
+            loading: true
+        })
         e.preventDefault()
         try {
          await auth.signInWithEmailAndPassword(this.state.email,this.state.password)
         this.props.history.push('/shop')
         } catch (error) {
             alert(error)
+            this.setState({
+                loading: false
+            })
         }        
     }
     render() {
         return (
             <Container >
+                <div>
+                <Spinner size={120} spinnerColor={"#333"} spinnerWidth={2} visible={this.state.loading} />
+                </div>
                 <Col md={{ span: 6, offset: 3 }} >
                 <Form onSubmit={this.handleSubmit} className="pt-5">
                     <Form.Group id="Email">

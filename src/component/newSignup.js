@@ -7,6 +7,8 @@ import { formValidatorHelper } from "./FormValidator.js";
 import { FlutterWaveButton } from 'flutterwave-react-v3';
 import { connect } from 'react-redux'
 import {  auth, db } from '../utils/app';
+import Spinner from 'react-spinner-material';
+
 
  class SignUp extends Component {
 
@@ -19,7 +21,8 @@ import {  auth, db } from '../utils/app';
             address: '',
             businessName: '',
             ownerName: '',
-            businessType: ''
+            businessType: '',
+            loading: false
         }
     }
 
@@ -55,6 +58,9 @@ import {  auth, db } from '../utils/app';
    
 
     handleFbAuth = async () => {
+      this.setState({
+        loading: true
+      })
       const { useremail, password, businessName, businessType, address, phonenumber, ownerName } = this.state  
       try {
         console.log(useremail)
@@ -72,6 +78,9 @@ import {  auth, db } from '../utils/app';
       } catch (error) {
           console.log(error)
           alert(error)
+          this.setState({
+            loading: false
+          })
       }  
     }
 
@@ -118,6 +127,9 @@ import {  auth, db } from '../utils/app';
 
     return (
       <div className="container ">
+           <div>
+               <Spinner size={120} spinnerColor={"#333"} spinnerWidth={2} visible={this.state.loading} />
+            </div>
             <Form onSubmit={handleSubmit(this.handleFbAuth)}>
               <Form.Row>
                 <Form.Group as={Col} >
@@ -157,21 +169,6 @@ import {  auth, db } from '../utils/app';
                 />
               </Form.Group>
               
-              <Form.Group>
-                <Form.Label>Business Type</Form.Label>
-                <Field
-                  name="type"
-                  type="text"
-                  component={input}
-                  id="type"
-                  placeholder="Enter your business type"
-                  onChange= {this.handleBusTypeChange}
-                />
-              </Form.Group>
-
-              
-              
-
               <Form.Row>
                 <Form.Group as={Col}>
                   <Form.Label>Business Type</Form.Label>

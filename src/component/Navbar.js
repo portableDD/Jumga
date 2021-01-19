@@ -27,7 +27,7 @@ const Navbar = () => {
                             <li><NavLink to="/about">About Us</NavLink></li>
                             <li>
                                 <NavLink to="/sign-in">
-                                    Sign up as seller
+                                    Sign in as seller
                                 </NavLink>
                             </li>                        
                         </ul>
@@ -49,7 +49,7 @@ const Navbar = () => {
                     <li><NavLink to="/about">About Us</NavLink></li>
                     <li>
                         <NavLink to="/sign-in">
-                            Sign up as seller
+                            Sign in as seller
                         </NavLink>
                     </li>
                 </ul>
