@@ -18,14 +18,23 @@ class Shop extends Component {
   }
   handleDisplay = () => {
     const form = document.getElementById("addProductSection")
-    // const display = document.getElementById("homeSection")
-     if(form.style.display=== 'block') {
-      form.style.display = 'none';
+    const homem = document.getElementById("homeSection")
+    const rider = document.getElementById("2");
+      form.style.display = 'block';
+      homem.style.display = 'none';
+      // rider.style.display = 'none';
       // display.style.visibility = 'visible'
-     } else {
-       form.style.display = 'block'
-      //  display.style.visibility = 'hidden'
-     }
+  }
+
+  handleHome = () => {
+    const form = document.getElementById("addProductSection")
+    const homem = document.getElementById("homeSection")
+    const rider = document.getElementById("2")
+    
+      form.style.display = 'none';
+      homem.style.display = 'block';
+      // rider.style.display = 'none';
+      // display.style.visibility = 'visible'
   }
   render() {
     // const randomId = Math.round(Math.random() * 100000000)
@@ -45,7 +54,7 @@ class Shop extends Component {
             <Navbar bg="light" variant="light">
               <Nav className="flex-column" variant="pills" defaultActiveKey="#homeSection">
                 <Nav.Item>
-                  <Nav.Link href="#homeSection" id="pure">Home</Nav.Link>
+                  <Nav.Link href="#homeSection" id="pure" onClick={this.handleHome}>Home</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link href="#addProductSection" id="display" onClick={this.handleDisplay}>Add Product</Nav.Link>
