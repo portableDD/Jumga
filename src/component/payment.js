@@ -3,7 +3,6 @@ import {connect} from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import Animation from '../animation/animi';
 import Footer from './footer';
-import { PaystackButton } from 'react-paystack';
 import { FlutterWaveButton } from 'flutterwave-react-v3';
 
 
@@ -104,32 +103,32 @@ class payment extends Component{
         const priceTag = face.filter(items =>items.name === param).map(item => { 
             return item.price
         })
-       const price = priceTag.toString().replace(',','') 
+    //    const price = priceTag.toString().replace(',','') 
         const config = {
             public_key: "FLWPUBK_TEST-cc5cd42f6cd21196275f0021533d0ac9-X",
             tx_ref: (new Date()).getTime(),
-            amount: price,
+            amount: priceTag,
             currency: "USD",
             payment_options: "card,ussd,qr,barter",
             customer: {
-              email: 'olifedayo94@gmail.com',
-              phonenumber: "08165656988",
-              name: param,
+              email: this.state.input['email'],
+              phonenumber: this.state.input['phone'],
+              name: this.state.input['name'],
             },
             subaccounts: [
               {
-                id: "RS_A8EB7D4D9C66C0B1C75014EE67D4D663",
-                transaction_split_ratio: 2,
+                id: `${process.env.REACT_APP_SELLER_ACCOUNT}`,
+                transaction_split_ratio: 23,
               },
               {
-                id: "RS_006C1B504310E09B9F4697E409FF2BC0",
+                id: `${process.env.REACT_APP_RIDER_ACOUNT}`,
                 transaction_split_ratio: 2,
               },
             ],
             customizations: {
               title: "Jumga",
               description: "Payment for item",
-              logo: "https://assets.piedpiper.com/logo.png",
+              logo: "https://st2.depositphotos.com/4403291/7418/v/450/depositphotos_74189661-stock-illustration-online-shop-log.jpg",
             },
           }; 
         const handleSuccessAction = (reference) => {
@@ -239,7 +238,7 @@ class payment extends Component{
                                     name="size" 
                                     value={this.state.input.size} 
                                     onChange={this.handleChange} 
-                                    className='shape'  
+                                    className='shape' 
                                     placeholder="Enter shoe size" 
                                     id="size"/>
                                     {/* <select id="size" name="size" >

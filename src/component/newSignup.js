@@ -2,12 +2,11 @@ import React, { Component } from 'react'
 import Form from "react-bootstrap/Form";
 import { reduxForm, Field, formValueSelector } from "redux-form";
 import { input } from "./InputControl";
-// import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col"
 import { formValidatorHelper } from "./FormValidator.js";
-import { FlutterWaveButton, useFlutterwave } from 'flutterwave-react-v3';
+import { FlutterWaveButton } from 'flutterwave-react-v3';
 import { connect } from 'react-redux'
-import { app, auth } from '../utils/app';
+import {  auth } from '../utils/app';
 
  class SignUp extends Component {
 
@@ -63,7 +62,7 @@ import { app, auth } from '../utils/app';
         const config = {
             tx_ref: (new Date()).getTime(),
             amount: 20,
-            public_key: 'FLWPUBK_TEST-cc5cd42f6cd21196275f0021533d0ac9-X',
+            public_key: `${process.env.REACT_APP_FLUTTER_WAVE_PUBLIC_KEY}`,
             currency: 'USD',
             payment_options: 'card,mobilemoney,ussd',
             customer: {
@@ -187,14 +186,7 @@ import { app, auth } from '../utils/app';
               
                 <FlutterWaveButton  {...componentProps} disabled={!valid || pristine || submitting}/>
             </Form>
-            {/* <Button variant="primary" type="submit" >
-                Submit
-            </Button> */}
-
-            {/* <Button variant="primary" type="submit">
-                Submit
-              </Button>
-          <Button as="input" type="reset" value="Reset" onClick={reset}/> */}
+           
 
       </div>
     )
