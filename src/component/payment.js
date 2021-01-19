@@ -3,7 +3,6 @@ import {connect} from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import Animation from '../animation/animi';
 import Footer from './footer';
-import { PaystackButton } from 'react-paystack';
 import { FlutterWaveButton } from 'flutterwave-react-v3';
 
 

@@ -4,9 +4,9 @@ import { reduxForm, Field, formValueSelector } from "redux-form";
 import { input } from "./InputControl";
 import Col from "react-bootstrap/Col"
 import { formValidatorHelper } from "./FormValidator.js";
-import { FlutterWaveButton, useFlutterwave } from 'flutterwave-react-v3';
+import { FlutterWaveButton } from 'flutterwave-react-v3';
 import { connect } from 'react-redux'
-import { app, auth } from '../utils/app';
+import {  auth } from '../utils/app';
 
  class SignUp extends Component {
 
