@@ -19,7 +19,7 @@ class Sandal extends Component {
                                 </div>
                                 <div className = "info">
                                     <span>{pod.name}</span>
-                                    <span>{'\u20A6'} {pod.price}</span>
+                                    <span>{'\u0024'} {pod.price}</span>
                                 </div>
                             </NavLink>                  
                         </div>

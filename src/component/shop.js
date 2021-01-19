@@ -12,7 +12,46 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import Button from "react-bootstrap/Button";
 import './shop.css'
+import {  auth, db } from '../utils/app';
 class Shop extends Component {
+
+  constructor (props) {
+    super(props)
+    this.state = {
+        useremail:'',
+        phonenumber: '',
+        address: '',
+        businessName: '',
+        ownerName: '',
+        businessType: ''
+    }
+}
+
+  componentDidMount() {
+    this.handleFetchData()
+  }
+
+  handleFetchData = () => {
+    db.collection("sellers").get().then((querySnapshot) => {
+      querySnapshot.forEach((doc) => {
+          console.log(`${doc.id} => ${doc.data().name}`);
+          const x = doc.data()
+          if (auth.currentUser.email === x.email) {
+            this.setState({
+              useremail: x.email,
+              phonenumber: x.phone_number,
+              address: x.address,
+              businessName: x.business_name,
+              businessType: x.business_type,
+              ownerName: x.name
+            })
+          }
+         
+      });
+  });
+  }
+
+
   handleClick = () => {
     this.props.history.push('/')   
   }
@@ -31,6 +70,7 @@ class Shop extends Component {
       homem.style.display = 'block';
       
   }
+
   render() {
     
     const { Name, Phone, EmailValue, Type, Comment, Owner, handleSubmit, pristine, submitting, valid, } = this.props
@@ -43,7 +83,7 @@ class Shop extends Component {
     console.log(Name, Phone, EmailValue, Type, Comment, Owner);
     return (
       <Container>
-        <h1 className="text-center text-uppercase font-weight-bold" >{busName}</h1>
+        <h1 className="text-center text-uppercase font-weight-bold" >{this.state.businessName || busName}</h1>
         <Row>
           <Col  xs={12} md={3} sm={4}  xl={2} lg={3}>
             <Navbar bg="light" variant="light">
@@ -60,11 +100,11 @@ class Shop extends Component {
           <Col className="freeze pb-3" sm={1} lg={1}></Col>
           <Col className="bg-light" sm={8} md={8} lg={8}>
             <div id="homeSection" className=" pt-3" >
-              <h6 className="pl-5"> Owner's Name : {ownerName}</h6>
-              <h6 className="pt-2 pl-5">Business Address : {busAddress}</h6>
-              <h6 className="pt-2 pl-5">Business Type: {busType}</h6>
-              <h6 className="pt-2 pl-5">Phone Number: {phoneNum}</h6>
-              <h6 className="pt-2 pl-5 pb-2">Email Address: {email}</h6>
+              <h6 className="pl-5"> Owner's Name : {this.state.ownerName || ownerName}</h6>
+              <h6 className="pt-2 pl-5">Business Address : {this.state.address || busAddress}</h6>
+              <h6 className="pt-2 pl-5">Business Type: {this.state.businessType || busType}</h6>
+              <h6 className="pt-2 pl-5">Phone Number: {this.state.phonenumber || phoneNum}</h6>
+              <h6 className="pt-2 pl-5 pb-2">Email Address: {this.state.useremail || email}</h6>
             </div>
             <div id='addProductSection' style={{display:'none'}} >
               <Form onSubmit={handleSubmit} className='pt-3'>

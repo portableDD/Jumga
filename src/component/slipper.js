@@ -19,7 +19,7 @@ class Slippers extends Component {
                             </div>
                             <div className = "info">
                                 <span>{pod.name}</span>
-                                <span>{'\u20A6'} {pod.price}</span>
+                                <span>{'\u0024'} {pod.price}</span>
                             </div>
                         </NavLink>                  
                      </div>
@@ -48,7 +48,7 @@ class Slippers extends Component {
 
 const mapStateToProps = (state) => {
     return{
-        data: state.data.filter(item => {
+        data: state.root.data.filter(item => {
             return item.category === 'slipper'
         })
     }

@@ -38,7 +38,7 @@ const initState = {
             id: 2,
             name: 'TMI LEATHER SLIPPERS',
             category: 'slipper',
-            price: '700',
+            price: '70',
             image: Image2,
             size: "20,23,24,25,26,30,40",
             desc: `This is made with genuine and high quality leather to ensure durability and foot-friendliness. 

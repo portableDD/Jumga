@@ -20,13 +20,13 @@ const Footer = () => {
                         <i className = "fas fa-phone">
                             <img src={Phone} alt='phone icon'/>
                         </i>
-                        +234 9080788447
+                        +234 8165656988
                     </span>
                     <span>
                         <i className = "fas fa-phone">
                             <img src= {Phone} alt='phone icon'/>
                         </i>
-                        +234 8167798920
+                        +234 9078562988
                     </span>
                     <span>
                         <i className = "fas fa-envelope">
