@@ -45,7 +45,7 @@ class Shop extends Component {
       <Container>
         <h1 className="text-center text-uppercase font-weight-bold" >{busName}</h1>
         <Row>
-          <Col sm={6} xl={2} lg={3}>
+          <Col  xs={12} md={3} sm={4}  xl={2} lg={3}>
             <Navbar bg="light" variant="light">
               <Nav className="flex-column" variant="pills" defaultActiveKey="#homeSection">
                 <Nav.Item>
@@ -57,8 +57,8 @@ class Shop extends Component {
               </Nav>
             </Navbar>
           </Col>
-          <Col className="freeze pb-3" sm={1} xs={0} ></Col>
-          <Col className="bg-light" sm={4} lg={9}>
+          <Col className="freeze pb-3" sm={1} lg={1}></Col>
+          <Col className="bg-light" sm={8} md={8} lg={8}>
             <div id="homeSection" className=" pt-3" >
               <h6 className="pl-5"> Owner's Name : {ownerName}</h6>
               <h6 className="pt-2 pl-5">Business Address : {busAddress}</h6>

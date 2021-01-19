@@ -126,6 +126,9 @@
 	.product-page .content {
 		margin-top: 0px;
 		margin-left: 15px;
+	}
+	.freeze{
+        display: block;
     }
     /* .footer-items {
 		display: flex;
