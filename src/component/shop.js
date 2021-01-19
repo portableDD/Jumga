@@ -36,7 +36,7 @@ class Shop extends Component {
       querySnapshot.forEach((doc) => {
           console.log(`${doc.id} => ${doc.data().name}`);
           const x = doc.data()
-          if (auth.currentUser.email == x.email) {
+          if (auth.currentUser.email === x.email) {
             this.setState({
               useremail: x.email,
               phonenumber: x.phone_number,
