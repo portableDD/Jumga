@@ -15,7 +15,6 @@ import Shop from './component/shop'
 import './style.css';
 import './choice.css';
 import './utils/app';
-import { app, auth } from './utils/app';
 
 
 class App extends Component {
