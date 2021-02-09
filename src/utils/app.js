@@ -1,9 +1,8 @@
 import * as firebase from 'firebase/app';
-import fff from 'firebase/firestore'
+import  'firebase/firestore'
 import "firebase/auth";
 import firebaseConfig from './config';
 
-console.log(fff);
 
 export const app = firebase.default.initializeApp(firebaseConfig);
 
