@@ -3,6 +3,8 @@ import fff from 'firebase/firestore'
 import "firebase/auth";
 import firebaseConfig from './config';
 
+console.log(fff);
+
 export const app = firebase.default.initializeApp(firebaseConfig);
 
 export const auth = firebase.default.auth()
