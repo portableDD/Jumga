@@ -187,6 +187,7 @@ import Spinner from 'react-spinner-material';
                       type="text"
                       component={input}
                       id="phone-num"
+                      onChange= {this.handlePhoneChange}
                       placeholder="Enter your phone"
                     />
                   </Form.Group>
@@ -200,7 +201,7 @@ import Spinner from 'react-spinner-material';
                     component={input}
                     id="phone-num"
                     placeholder="Enter your phone"
-                    onChange = {this.handlePhoneChange}
+                    onChange = {this.handleEmailChange}
                   />
                 </Form.Group>
                 <Form.Group as={Col} >
